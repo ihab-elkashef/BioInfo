@@ -4,7 +4,7 @@ public class SearchFasta {
 
 	
 	
-	public String SearchFastaNaive(String pathname, String sequence){
+	public String searchFastaNaive(String pathname, String sequence){
 		String genome = "" , currentLine, positions = ""; 
 		FileReader file;
 		BufferedReader bf;
@@ -55,12 +55,12 @@ public class SearchFasta {
 	}
 	
 	
-	public static void main(String[] args) {
+	/*public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		SearchFasta test = new SearchFasta();
 		
-		System.out.println("Occurence de la séquence aux indices suivant : "+test.SearchFastaNaive("/home/baz/workspace/TP1_BI/fasta.txt", "CTA"));
+		System.out.println("Occurence de la séquence aux indices suivant : "+test.searchFastaNaive("/home/baz/workspace/TP1_BI/fasta.txt", "CTA"));
 
-	}
+	}*/
 
 }
